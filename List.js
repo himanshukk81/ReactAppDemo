@@ -1,9 +1,24 @@
 import React, { Component } from 'react'
 import { Text, View, TouchableOpacity, StyleSheet } from 'react-native'
 import { Actions } from 'react-native-router-flux'
-const goDetail = () => {
-    Actions.Detail()
- } 
+// const goDetail = () => {
+//     Actions.Detail()
+//  } 
+
+
+// const List = () => {
+//     const goToAbout = () => {
+//     alert("hello")
+//        Actions.Detail()
+//     }
+//     return (
+//        <TouchableOpacity style = {{ margin: 128 }} onPress = {goToAbout}>
+//           <Text>This is HOME!</Text>
+//        </TouchableOpacity>
+//     )
+//  }
+//  export default List
+ 
 class List extends Component {
    state = {
       names: [
@@ -22,17 +37,24 @@ class List extends Component {
          {
             id: 3,
             name: 'Mary',
-         }
+         },
       ]
    }
-//    alertItemName = (item) => {
-//       alert(item.name)
-//    }
+   
 
+   
+   alertItemName = (item) => {
+      alert(item.name)
+   }
+goDetail1=(item)=>{
+    // alert("Go to detail");
+    console.log("Item nme=="+item.name);
+    Actions.Detail({text :item.name})
+}
  
    
    render() {
-       
+    console.log("state=="+JSON.stringify(this.state));
       return (
          <View> 
             {
@@ -40,7 +62,7 @@ class List extends Component {
                   <TouchableOpacity
                      key = {item.id}
                      style = {styles.container}
-                     onPress = {goDetail}>
+                     onPress = {()=>this.goDetail1(item)}>
                      
                      <Text style = {styles.text}>
                         {item.name}

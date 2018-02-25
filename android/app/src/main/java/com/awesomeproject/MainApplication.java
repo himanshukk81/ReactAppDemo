@@ -1,4 +1,4 @@
-package com.awesomeproject;
+package com.awesomeproject1;
 
 import android.app.Application;
 

@@ -31,8 +31,8 @@ export default class App extends Component {
     return (
       <View>
             {/* <Home /> */}
-            <Routes />
-            <List />
+            {/* <Routes /> */}
+            {/* <List /> */}
       </View>
     );
   }

@@ -1,6 +1,10 @@
 [
     {
-        "merged": "D:\\React-native\\AwesomeProject\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
-        "source": "D:\\React-native\\AwesomeProject\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "/Users/himanshu/Documents/React-Native/ReactAppDemo/android/D:\\React-native\\AwesomeProject\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "/Users/himanshu/Documents/React-Native/ReactAppDemo/android/D:\\React-native\\AwesomeProject\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/Users/himanshu/Documents/React-Native/ReactAppDemo/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/himanshu/Documents/React-Native/ReactAppDemo/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     }
 ]

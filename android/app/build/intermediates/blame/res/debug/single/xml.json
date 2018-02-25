@@ -1,6 +1,10 @@
 [
     {
-        "merged": "D:\\React-native\\AwesomeProject\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
-        "source": "D:\\React-native\\AwesomeProject\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.53.0\\res\\xml\\preferences.xml"
+        "merged": "/Users/himanshu/Documents/React-Native/ReactAppDemo/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/himanshu/Documents/React-Native/ReactAppDemo/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.53.0/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/himanshu/Documents/React-Native/ReactAppDemo/android/D:\\React-native\\AwesomeProject\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "/Users/himanshu/Documents/React-Native/ReactAppDemo/android/D:\\React-native\\AwesomeProject\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.53.0\\res\\xml\\preferences.xml"
     }
 ]
