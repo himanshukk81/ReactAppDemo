@@ -10,4 +10,4 @@ class AppComponent extends Component {
     }
  }
  export default AppComponent
-AppRegistry.registerComponent('AwesomeProject', () => AppComponent);
+AppRegistry.registerComponent('DemoApp', () => AppComponent);
