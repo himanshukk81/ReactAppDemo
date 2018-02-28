@@ -6,7 +6,7 @@ import Login from './login.js'
 
 const Routes = () => (
     <Router>
-       <Scene key = "root" backgroundColor="#4fb3bf">
+       <Scene key = "root" hideNavBar={true} >
           <Scene key = "Login" component = {Login} title = "Login" initial = {true} />    
           <Scene key = "Users" component = {List} title = "Users" />
           <Scene key = "Detail" component = {Detail} title = "Detail" />
